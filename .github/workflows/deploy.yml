@@ -67,7 +67,7 @@ permissions:
 jobs:
   deploy:
     permissions:
-      contents: read
+      contents: write
       pages: write
       id-token: write
     # available images: https://github.com/actions/runner-images#available-images
