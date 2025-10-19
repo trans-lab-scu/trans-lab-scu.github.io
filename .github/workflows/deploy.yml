@@ -66,6 +66,11 @@ permissions:
 
 jobs:
   deploy:
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
